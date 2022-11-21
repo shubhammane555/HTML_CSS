@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.header{
+    float: none;
+    width: auto;
+}
+
+.article-div{
+    background-color: azure;
+  float: left;
+    width: 50%;
+}
+.document{
+  float: right;
+    width: 50%;
+}
+@media screen and (max-width: 600){
+
+   
+    #header a{background-color: red;}
+}
+    

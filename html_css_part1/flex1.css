@@ -1,0 +1,20 @@
+body{
+    background-color: rebeccapurple;
+}
+
+.flex-container{
+    display:flex;
+    background-color: aqua;
+    margin: 20px;
+    padding: 5px;
+    flex-wrap:wrap;
+    flex-direction: column;
+
+}
+.flex-container>div{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    border: 4px dotted red;
+    width: 100px;
+}

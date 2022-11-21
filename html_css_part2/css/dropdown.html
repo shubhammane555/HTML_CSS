@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+.dropbutton{background-color:red;
+color:black;
+padding:16px;
+font-size:20px;
+border:none;}
+.dropdown{position:relative;display:inline-block;}
+.dropdown-content{display:none;position:absolute;background-color:yellow;min-width:160px;
+box-shadow:0px 8px 16px 0px rgba(0,0,0,0,0.2);
+z-index:1;}
+.dropdown-content a{color:blue;padding:12px 16px;text decoration:none;display:block;}
+.dropdown-content a:hover{background-color:orange;}
+.dropdown:hover  .dropdown-content{display:block;}
+.dropdown:hover  .dropbutton{background-color:green;}
+</style>
+</head>
+<body>
+<h2>hotel rahul</h2>
+<p> plz check menu mostly non-veg menu</p>
+<div class="dropdown">
+<button class="dropbutton">non-veg </button>
+<div class="dropdown-content">
+<a href="#">mutton dish</a>
+<a href="#">chikan dish</a>
+<a href="#">biryani dish</a>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<html>
+<title>regi</title>
+<body bgcolor="orangered">
+<center>
+<form>
+<h1>student registra

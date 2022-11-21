@@ -1,0 +1,36 @@
+.header{
+    border: solid 1px;
+    padding: 20px;
+    margin:5px;
+    background-color: rgb(235, 154, 182);
+
+}
+#a,#b,#c,#d{
+ margin-left: 10%;
+}
+#e{
+    margin-left: 100px;
+}
+#f{
+    background-color: rgb(55, 0, 255);
+}
+
+
+.article-div{
+    border: 2px solid red;
+    padding: 5px;
+    color: rgb(35, 28, 31);
+    margin: 33px;
+    width: 70%;
+}
+.document{
+    border:1px solid black;
+    padding: 10px;
+    color: rgba(45, 41, 43, 0.961);
+    margin-left: 75%;
+    width: 20%;
+    height: 328px;
+    margin-top: -370px;
+    background-color:  rgb(235, 154, 182);
+}  
+}

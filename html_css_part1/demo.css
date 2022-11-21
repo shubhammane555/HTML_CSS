@@ -1,0 +1,32 @@
+.header{
+    border:solid 1px;
+    margin: 10px;
+background-color: antiquewhite;
+padding: 25px;
+
+}
+#a{
+    margin-left: 100px;
+}
+#b{
+    margin-left: 100px;
+}
+#c{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.data{
+    border: solid 1px;
+    margin:10px;
+    padding: 5px;
+    width:800px;
+    height: 400px;
+}
+.sidebar{
+    border:solid 1px;
+    height: 100px;
+    width: 200px;
+    padding:10px;
+    margin: 10px;
+}

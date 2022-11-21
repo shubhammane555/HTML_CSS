@@ -1,0 +1,14 @@
+p.a{
+    writing-mode:vertical-rl;
+    
+}
+p.c{
+    writing-mode: horizontal-vl;
+}
+span.c{
+    writing-mode: vertical-rl;
+}
+z:hover{
+    background-color: beige;
+}
+a:hover{background-color:red;}

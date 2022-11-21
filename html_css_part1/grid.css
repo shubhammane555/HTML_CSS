@@ -1,0 +1,11 @@
+    .grid-container{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        gap:5px;
+    }
+    .grid-container > div{
+display: flex;
+background-color: aqua;
+padding: 3px;
+    }
+    

@@ -1,0 +1,31 @@
+.grid-container{
+    display: grid;
+    grid-template-areas:
+     "header header header"
+    "mid mid sidebar "
+    "mid mid sidebar"
+    "mid mid sidebar"
+"footer footer sidebar";
+    gap: 10px;
+}
+    .grid-item-1{
+        grid-area: header;
+    }
+    .grid-item-2{
+        grid-area: mid;
+       
+    }
+    .grid-item-3{
+        grid-area: sidebar;   
+    }
+    .grid-item-4{
+        grid-area: footer;   
+    }
+    .grid-container > div{
+        display: flex;
+        background-color: aqua;
+        padding: 3px;
+        
+    }
+
+   
